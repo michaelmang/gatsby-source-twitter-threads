@@ -1,0 +1,38 @@
+{
+  "name": "gatsby-source-twitter-threads",
+  "version": "1.0.9",
+  "description": "Source Twitter threads in Gatsby",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelmang/gatsby-source-twitter-threads"
+  },
+  "author": "Michael Mangialardi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "babel-preset-gatsby-package": "^1.14.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "twitter-v2": "^1.1.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source",
+    "gatsby-source-plugin",
+    "twitter",
+    "v2"
+  ]
+}
